@@ -1,0 +1,36 @@
+{
+	"name": "request-xray",
+	"version": "0.1.0",
+	"private": true,
+	"description": "Turn a HAR file into a clear report of what a page did over the network, and where it wasted effort.",
+	"author": "Sujan Rokad (https://sujanrokad.com)",
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "eslint .",
+		"typecheck": "tsc --noEmit",
+		"test": "vitest run",
+		"test:watch": "vitest",
+		"test:e2e": "playwright test",
+		"sample": "node scripts/make-sample-har.mjs"
+	},
+	"dependencies": {
+		"next": "^16.3.6",
+		"react": "^19.3.0",
+		"react-dom": "^19.3.0"
+	},
+	"devDependencies": {
+		"@axe-core/playwright": "^4.13.0",
+		"@playwright/test": "^1.63.0",
+		"@tailwindcss/postcss": "^4.3.3",
+		"@types/node": "^22.20.4",
+		"@types/react": "^19.3.0",
+		"@types/react-dom": "^19.3.0",
+		"eslint": "^9.39.5",
+		"eslint-config-next": "^16.3.6",
+		"tailwindcss": "^4.3.3",
+		"typescript": "^5.9.3",
+		"vitest": "^4.1.11"
+	}
+}

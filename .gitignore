@@ -1,0 +1,27 @@
+# dependencies
+/node_modules
+
+# next.js
+/.next/
+/out/
+next-env.d.ts
+*.tsbuildinfo
+
+# testing
+/coverage
+/playwright-report/
+/test-results/
+/blob-report/
+
+# HAR files can hold tokens, cookies and customer data. Only the synthetic
+# sample and fixtures in this repo are allowed.
+*.har
+!public/samples/*.har
+!lib/**/fixtures/*.har
+
+# misc
+.DS_Store
+.env*
+.vercel
+
+CLAUDE.md
